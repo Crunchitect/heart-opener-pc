@@ -24,3 +24,9 @@ h2 {
     display: flex;
     justify-content: space-evenly;
 }
+
+@media (width <= 945px) {
+    .solves {
+        display: column;
+    }
+}
